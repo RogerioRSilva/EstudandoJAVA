@@ -14,6 +14,7 @@ A lógica de programação é a base para o desenvolvimento de qualquer software
 - [Entrada e Saída de Dados](#7-entrada-e-saída-de-dados)
 - [Operadores](#8-operadores)
 - [Boas Práticas](#9-boas-práticas)
+- [String - O que é?](#10-string-o-que-é)
 
 
 ## 1. Introdução ao Java
@@ -198,3 +199,55 @@ public class Main {
 ---
 
 Este guia cobre os fundamentos da lógica de programação em Java. Compreender esses conceitos é essencial antes de avançar para tópicos mais avançados, como orientação a objetos.
+
+### 10. String - O que é?
+String é uma classe em Java que representa uma sequência de caracteres. Strings são imutáveis, o que significa que, uma vez criadas, não podem ser alteradas. Você pode criar strings usando aspas duplas.
+    
+    ```java 
+    String saudacao = "Olá, Mundo!";
+    ```
+- **Métodos Comuns**:
+    - `length()`: Retorna o comprimento da string.
+    - `charAt(int index)`: Retorna o caractere na posição especificada.
+    - `substring(int beginIndex, int endIndex)`: Retorna uma parte da string.
+    - `toUpperCase()`: Converte a string para maiúsculas.
+    - `toLowerCase()`: Converte a string para minúsculas.
+    - `indexOf(String str)`: Retorna a posição da primeira ocorrência de uma substring.
+    - `replace(String oldChar, String newChar)`: Substitui uma parte da string por outra.   
+    - `trim()`: Remove espaços em branco do início e do fim da string.
+    - `split(String regex)`: Divide a string em partes com base em um delimitador.
+    - `equals(Object obj)`: Compara duas strings para verificar se são iguais.
+    - `contains(CharSequence sequence)`: Verifica se a string contém uma sequência específica.
+    - `isEmpty()`: Verifica se a string está vazia.
+    - `startsWith(String prefix)`: Verifica se a string começa com um prefixo específico.
+    - `endsWith(String suffix)`: Verifica se a string termina com um sufixo específico. 
+    - `valueOf(int i)`: Converte um inteiro em uma string.
+    - `compareTo(String anotherString)`: Compara duas strings lexicograficamente.
+    - `concat(String str)`: Concatena duas strings.
+    - `toCharArray()`: Converte a string em um array de caracteres.
+    - `StringBuilder`: Para manipulação eficiente de strings mutáveis.
+    - `StringBuffer`: Semelhante ao StringBuilder, mas é sincronizado e seguro para uso em múltiplas threads.
+    - `String.format(String format, Object... args)`: Formata uma string com base em um formato especificado.
+
+- **Exemplo de Uso**:
+```java
+String nome = "João";   
+
+String saudacao = "Olá, " + nome + "!"; // Concatenação
+
+System.out.println(saudacao); // Saída: Olá, João!
+System.out.println("Comprimento: " + nome.length()); // Saída: Comprimento: 4
+
+System.out.println("Primeiro caractere: " + nome.charAt(0)); // Saída: Primeiro caractere: J
+
+System.out.println("Substring: " + nome.substring(1, 3)); // Saída: Substring: oã
+
+System.out.println("Maiúsculas: " + nome.toUpperCase()); // Saída: Maiúsculas: JOÃO
+
+System.out.println("Minúsculas: " + nome.toLowerCase()); // Saída: Minúsculas: joão
+```
+
+---
+
+- [Voltar ao Menu](#menu)
+- [Entenda mais sobre System.out.println ou print ou printf](utilizando_saida_dedados.md)
