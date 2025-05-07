@@ -5,10 +5,12 @@
 Este tutorial irá guiá-lo na instalação das seguintes IDEs: **VS Code**, **IntelliJ IDEA**, **Eclipse** e **NetBeans**. Clique no nome da IDE para ir diretamente à seção correspondente.
 
 ## Índice
-1. [Visual Studio Code (VS Code)](#visual-studio-code-vs-code)
-2. [IntelliJ IDEA](#intellij-idea)
-3. [Eclipse](#eclipse)
-4. [NetBeans](#netbeans)
+1. [Instalação da JDK (Java Development Kit)](#instalacao-da-jdk-java-development-kit)
+2. [Visual Studio Code (VS Code)](#visual-studio-code-vs-code)
+3. [IntelliJ IDEA](#intellij-idea)
+4. [Eclipse](#eclipse)
+5. [NetBeans](#netbeans)
+6. [Conclusão](#conclusao)
 
 ---
 
