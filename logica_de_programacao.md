@@ -203,6 +203,7 @@ Este guia cobre os fundamentos da lógica de programação em Java. Compreender 
 ## 10. String - O que é?
 String é uma classe em Java que representa uma sequência de caracteres. Strings são imutáveis, o que significa que, uma vez criadas, não podem ser alteradas. Você pode criar strings usando aspas duplas.
 
+- **Exemplo de Declaração**:
 ```	java
     String nome = "João";
 ```
