@@ -14,7 +14,7 @@ A lógica de programação é a base para o desenvolvimento de qualquer software
 - [Entrada e Saída de Dados](#7-entrada-e-saída-de-dados)
 - [Operadores](#8-operadores)
 - [Boas Práticas](#9-boas-práticas)
-- [String - O que é?](#10-string-o-que-é)
+- [String - O que é?](#10-string---o-que-é)
 
 
 ## 1. Introdução ao Java
