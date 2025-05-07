@@ -1,12 +1,8 @@
 # Estudando JAVA 💻
-
 ## Menu 🎯
-- [O que é JAVA?](#o-que-é-java)
-- [Principais características do JAVA](#principais-características-do-java)
-- [O que é IDE?](#o-que-é-ide)
-- [Lógica de Programação em JAVA](logica_de_programacao.md)
+- [Lógica de Programação em Java](logica_de_programacao.md)
 - [Exercícios Propostos](exercicios_propostos.md)
-- [Nomenclatura em JAVA](nomenclatura_variavel.md)
+- [Nomenclatura em Java](nomenclatura_variavel.md)
 
 ## ❓ O que é Java?
 Java é uma linguagem de programação de propósito geral, orientada a objetos e baseada em classes. Ela foi desenvolvida pela Sun Microsystems (atualmente parte da Oracle Corporation) e lançada pela primeira vez em 1995. Java é amplamente utilizada para o desenvolvimento de aplicativos para dispositivos móveis, aplicativos web, sistemas embarcados e muito mais.
